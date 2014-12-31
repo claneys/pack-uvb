@@ -1,0 +1,26 @@
+{
+	"name": "UVB",
+	"types": ["pack"],
+	"version": "1.4",
+	"homepage": "https://github.com/shinken-monitoring/pack-uvb",
+	"author": "Romain Forlot",
+	"description": "Unitrend Virtual Backup checks for shinken",
+	"contributors": [
+	  {
+		"name": "Romain Forlot",
+		"email": "rforlot@yahoo.com"
+	  }
+	],
+	"repository": "https://github.com/shinken-monitoring/pack-uvb",
+	"keywords": [
+	  "pack",
+	  "uvb",
+	  "unitrend",
+	  "virtual",
+	  "backup"
+	],
+	"dependencies": {
+	  "shinken": ">=1.4"
+	},
+	"license": "AGPL"
+}
