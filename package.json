@@ -2,7 +2,7 @@
 	"name": "UVB",
 	"types": ["pack"],
 	"version": "1.4",
-	"homepage": "https://github.com/shinken-monitoring/pack-uvb",
+	"homepage": "https://github.com/claneys/pack-uvb",
 	"author": "Romain Forlot",
 	"description": "Unitrend Virtual Backup checks for shinken",
 	"contributors": [
