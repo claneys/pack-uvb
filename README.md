@@ -1,9 +1,16 @@
 pack-uvb
 =========
 
-Unitrend Virtual Backup checks for Shinken
-You need to activate nrpe server on UVB appliance
-following this page :
+Unitrend Virtual Backup checks for Shinken. You'll need to use booster-nrpe 
+module. Install it with :
+
+::
+
+  shinken install uvb
+
+Then load it in poller cfg file.
+
+You need to activate nrpe server on UVB appliance following this page :
 https://phdtechsupport.zendesk.com/hc/en-us/articles/202532530-Using-Nagios-with-UVB
 
 And add the following line into /etc/nagios/nrpe.cfg
